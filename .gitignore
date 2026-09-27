@@ -1,0 +1,27 @@
+# Python & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv/
+venv/
+ENV/
+
+# Large datasets & raw inputs (>100MB exceeds GitHub limits)
+student_resource/
+*.tsv
+*.csv
+
+# Intermediate ML artifacts & parquets
+*.parquet
+*.npz
+*.joblib
+code/business_entity_resolution/artifacts/
+!code/business_entity_resolution/artifacts/reports/
+!code/business_entity_resolution/artifacts/reports/*.json
+!code/business_entity_resolution/artifacts/reports/*.md
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,15 @@
+# Python 3.10+ (tested on 3.11). Only standard open-source libraries that operate on the
+# supplied dataset; nothing here downloads data or calls an external service.
+# Ranges keep the pre-installed Kaggle image usable; tested versions in brackets.
+pandas>=2.0,<4          # [3.0.2]
+polars>=1.20,<2         # [1.44.2]
+duckdb>=1.1,<2          # [1.5.5]
+numpy>=1.26,<3          # [2.4.4]
+scipy>=1.11,<2          # [1.17.1]
+scikit-learn>=1.4,<2    # [1.8.0]
+rapidfuzz>=3.6,<4       # [3.14.6]
+lightgbm>=4.0,<5        # [4.7.0]
+xgboost>=2.0,<4         # [3.2.0]
+pyarrow>=14,<30         # [25.0.1]
+joblib>=1.3,<2          # [1.5.3]
+tqdm>=4.66,<5           # [4.70.1]
